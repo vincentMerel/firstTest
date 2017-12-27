@@ -1,0 +1,13 @@
+git add exemple.txt  					==> ajoute un nouveau fichier
+git add .  						==> ajoute tous les fichiers
+git commit -m ""					==> ajoute un commit
+git commit -a -m ""					==> ajoute un commit dans le cas ou il  n'y a pas de nouveau fichiers
+git log							==> affiche tous les commit
+git checkout SHADuCommit				==> examiner un commit en fonction de son Id SHA
+git checkout master					==> examiner le commit le plus récent
+git revert SHADuCommit					==> créer un nouveau commit qui fait l'inverse du précédent
+git commit --amend -m ""				==> modifier le message de votre dernier commit
+git reset --hard					==> annuler tous les changements que je n'ai pas encore commites
+git clone https://github.com/facebook/react.git		==> copier un repository sur votre machine
+git push origin master					==> envoie le repo sur github
+git pull origin master					==> met a jour les info provenant de github
